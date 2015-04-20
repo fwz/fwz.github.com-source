@@ -3,9 +3,18 @@ date: 2014-07-08 13:55:19
 tags: [Hive]
 ---
 
+Here are some useful settings when using Hive
 ## Hadoop related Settings
 {% code lang:sql %}
+-- define queue name
 set mapred.job.queue.name = your_queue;
+
+-- set Hive into strice mode, so query without "where" will not be executed.
+set hive.mapred.mode=strict;
+
+## Interact with Bash
+${env:HOME} indicate the Home env variable
+
 {% endcode %}
 
 ## INPUT / OUTPUT

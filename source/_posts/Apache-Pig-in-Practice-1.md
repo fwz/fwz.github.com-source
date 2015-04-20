@@ -4,8 +4,6 @@ tags: [Pig, Hadoop]
 categories: 
 - Engineering 
 - Big Data
-tags:
-- Pig
 ---
 
 ![](http://wenzhong.qiniudn.com/pig1.png)
@@ -22,7 +20,7 @@ I use Vim to write most script language and those are my favourite plugins to wr
 * [Tabularize](https://github.com/godlygeek/tabular) Align and keep cleaness of the Pig codelet. Most common usage is `:Tab/AS` to align `FOREACH ... GENERATE` clause.
 
 To improve debug efficiency, I like to run pig with short cut. Here are my simple approach: add the following in `.vimrc` for quick run with `F5`
-{% raw %}
+{% codeblock %}
 map <F5> :call Compile_Run()<CR>
 function Compile_Run()
     if &filetype=="coffee"
@@ -37,30 +35,24 @@ function Compile_Run()
     elseif &filetype=="pig"
         :w
         !./run_pig.sh %
-{% endraw %}
+{% endcodeblock %}
 
 revise `run_pig.sh` as you like. General idea is reduce redundant work and typo.
 
 <!-- more -->
 
 Basic form would be:
-{% raw %}
+{% codeblock %}
 pig -x local $1
-{% endraw %}
+{% endcodeblock %}
 
 or with default local debug settings
-{% raw %}
+{% codeblock %}
 intput=./input.txt
 output=./output
 rm -rf ${output?}
 pig -x local -Dinput=${input} -Doutput=${output} $1
-{% endraw %}
-
-### Sublime Text
-TBD
-
-### Eclipse
-TBD
+{% endcodeblock %}
 
 ## Modulize your Pig code using Marco
 ### Under standing Marco
@@ -70,21 +62,21 @@ Marco could help organize and reuse your code. Marco in Pig is quite like Marco 
 
 Understanding the `$` sign is important when using Marco. `$` decorate those variable to be replaced
 
-{% raw %}
+{% codeblock number1.txt %}
 1
 2
 3
 4
 5
-{% endraw %}
+{% endcodeblock %}
 
-{% raw %}
+{% codeblock filter.marco %}
 DEFINE filter_small_number (events, threshold) RETURNS filtered_events {
     $filtered_events = FILTER $events BY a > $threshold;
 };
-{% endraw %}
+{% endcodeblock %}
 
-{% raw %}
+{% codeblock %}
 IMPORT 'filter.marco';
 
 events = LOAD './data/number1.txt' AS (a:int);
@@ -92,19 +84,19 @@ events = LOAD './data/number1.txt' AS (a:int);
 big_number = filter_small_number(events, 2);
 
 DUMP big_number;
-{% endraw %}
+{% endcodeblock %}
 
-{% raw %}
+{% codeblock %}
 (3)
 (4)
 (5)
-{% endraw %}
+{% endcodeblock %}
 
 Easy. 
 
 However, you'd better not change input with in a Marco. they are just substitution, every change in input variables are global 
 
-{% raw %}
+{% codeblock %}
 IMPORT 'filter.marco';
 
 events = LOAD './data/number1.txt' AS (a:int);
@@ -113,15 +105,15 @@ big_number = filter_small_number(events, 2);
 
 DUMP big_number;
 DUMP events;
-{% endraw %}
+{% endcodeblock %}
 
-{% raw %}
+{% codeblock %}
 DEFINE filter_small_number (events, threshold) RETURNS filtered_events {
     $filtered_events = FILTER $events BY a > $threshold;
     $events = FILTER $events BY a == 4;
 };
-{% endraw %}
-{% raw %}
+{% endcodeblock %}
+{% codeblock %}
 big_number
 (3)
 (4)
@@ -129,10 +121,10 @@ big_number
 
 events
 (4)
-{% endraw %}
+{% endcodeblock %}
 
 You can also return multiple data set in Marco
-{% raw %}
+{% codeblock %}
 DEFINE split_events (events, threshold) RETURNS big, small {
     $big = FILTER $events BY a >= $threshold;
     $small = FILTER $events BY a < $threshold;
@@ -145,9 +137,9 @@ big_num, small_num = split_events(events, 3);
 DUMP big_num;
 DUMP small_num;
 
-{% endraw %}
+{% endcodeblock %}
 
-{% raw %}
+{% codeblock %}
 big
 (3)
 (4)
@@ -155,7 +147,7 @@ big
 small
 (1)
 (2)
-{% endraw %}
+{% endcodeblock %}
 
 ### What's not so cool
 One reason we love Marco less is that after marco is plugined into Pig then error message become a little difficult to read and resolve root cause, because line number would be reflecting the reassembled Pig scripts. However, it's still a great tool and a must have skill to use Pig.
@@ -169,10 +161,10 @@ One reason we love Marco less is that after marco is plugined into Pig then erro
 * MultiStorage could help you store data hierarchily, which mean you could partition result when storing, absolutly must-know features.
 
 # Third party Pig library
-* piggybank
-* DataFu from LinkedIn
-* ElephantBird from twitter
-* Hcatalog
+* [piggybank](https://cwiki.apache.org/confluence/display/PIG/PiggyBank)
+* [DataFu](http://data.linkedin.com/opensource/datafu) from LinkedIn
+* [ElephantBird](https://github.com/twitter/elephant-bird/) from twitter
+* [Hcatalog](http://hortonworks.com/hadoop/hcatalog/)
 
 # UDF
 Once you know you could use Python/Ruby/JS to write UDF, I suppose nobody will try to use JAVA for common cases.
@@ -185,7 +177,7 @@ Write UT to be a good man. Of course, Pig could and should be unit-tested. The [
 ## Unit test a python UDF
 when using native `unittest` packages to test the python script，`outputSchema` will complains. One way is to add Pig support in Python script, the other one is to disable the outputSchema notation. Here we should the second tricks, put this codelet at the top of the UDF.
 
-{% raw %}
+{% codeblock %}
 if __name__ != '__lib__': 
     def outputSchema(dont_care): 
         def wrapper(func): 
@@ -193,7 +185,7 @@ if __name__ != '__lib__':
                 return func(*args, **kwargs) 
         return inner 
     return wrapper 
-{% endraw %}
+{% endcodeblock %}
 
 This block is intended to test the UDF with the outputSchema notation. The `__name__` will be marked as 'lib' when script is call by Pig. So it will not take effect when the script is running as Pig UDF. 
 

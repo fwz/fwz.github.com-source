@@ -1,5 +1,5 @@
 title: 'Sync two Git remote repositories'
-date: 2015-01-29 00:03:20
+date: 2014-08-29 00:03:20
 categories: [Engineering, Version Control]
 tags: Git
 ---
