@@ -17,6 +17,8 @@ I thought I am that kind of ambitious developer, so I spend two weekends to star
 ## Concepts
 Before we start, let's visit the concepts of SUT and DOC.
 
+<!-- more -->
+
 ### SUT & DOC
 
 SUT, or **System Under Test**, are understood as **the part of the system being tested**. Depending on the type of test, SUT may be of very different granularity – from a single class to a whole application. 
