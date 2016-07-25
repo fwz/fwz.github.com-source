@@ -17,7 +17,7 @@ language: en
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: fwz.github.io
+url: http://fwz.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -46,11 +46,15 @@ highlight:
   enable: true
   line_number: true
   tab_replace:
+  auto_detect: false
 
 # Category & Tag
 default_category: uncategorized
 category_map:
 tag_map:
+
+# Comments
+duoshuo_shortname: wenzhong1031
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
