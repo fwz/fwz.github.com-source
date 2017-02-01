@@ -75,6 +75,7 @@ theme: icarus
 plugins: 
 - hexo-generator-feed
 - hexo-math
+- hexo-tag-vimhighlight
 
 
 # RSS feed

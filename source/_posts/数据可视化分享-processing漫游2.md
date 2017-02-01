@@ -17,7 +17,7 @@ categories:
 
 ## Sketch
 {% raw %}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.4.8/processing.min.js"></script>
+<script src="http://7ktqal.com1.z0.glb.clouddn.com/processing.min.js"></script>
 <script type="text/processing" data-processing-target="processing-canvas">
 // This is a naive implement of ablaze.js in processing
 // Thanks Patrick Gunderson's great work

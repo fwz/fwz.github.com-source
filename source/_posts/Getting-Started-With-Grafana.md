@@ -43,7 +43,7 @@ To setup Graphite, please refer to [the installation doc](http://graphite.readth
 
 Cairo and Django is needed to render on Graphites' own. And we should use a specific version of Cairo since the latest 14.x version make fonts on graphite web very huge.
 
-{% codeblock lang:javascript %}
+{% vimhl bash %}
 cd /usr/local/Library/
 git checkout 7073788 /usr/local/Library/Formula/cairo.rb
 brew install cairo
@@ -52,25 +52,25 @@ sudo pip install cairocffi
 
 pip install Django==1.8
 pip install django-tagging
-{% endcodeblock %}
+{% endvimhl %}
 
 ### Install Graphite with pip
-```shell
+{% vimhl bash %}
 pip install https://github.com/graphite-project/ceres/tarball/master
 pip install whisper
 pip install carbon
 pip install graphite-web
-```
+{% endvimhl %}
 
 it's also recommended change the owner of Graphite directory if graphite is installed by root via
-```shell
+{% vimhl bash %}
 sudo chown -R <your username> /opt/graphite
-```
+{% endvimhl %}
 
 #### Configure Graphite
 using the following commands make all default setting works.
 
-```shell
+{% vimhl bash %}
 cd /opt/graphite
 cp conf/carbon.conf{.example,}
 cp conf/storage-schemas.conf{.example,}
@@ -80,20 +80,19 @@ cd webapp/graphite
 # Modify this file to change database backend (default is sqlite).
 cp local_settings.py{.example,}
 
-# Initialize database
 python manage.py syncdb
-```
+{% endvimhl %}
 
 ### Launch Carbon & Graphite
 
-```shell
+{% vimhl bash %}
 python /opt/graphite/bin/carbon-cache.py start
 python /opt/graphite/bin/run-graphite-devel-server.py /opt/graphite
-```
+{% endvimhl %}
 (We could just ignore this error: WHISPER_FALLOCATE_CREATE is enabled but linking failed.)
 
 
-```shell
+{% vimhl bash %}
 Running Graphite from /opt/graphite under django development server
 
 /usr/local/bin/django-admin runserver --pythonpath /opt/graphite/webapp --settings graphite.settings 0.0.0.0:8080
@@ -104,7 +103,7 @@ July 20, 2016 - 10:05:58
 Django version 1.8, using settings 'graphite.settings'
 Starting development server at http://0.0.0.0:8080/
 Quit the server with CONTROL-C.
-```
+{% endvimhl %}
 If everything goes well, we should see something like this and see Graphite runs well without broken image. 
 
 
@@ -142,11 +141,11 @@ Bingo! Now only one step to visualize it on Grafana
 
 Caution, There is one config file [storage-schema](http://graphite.readthedocs.io/en/latest/config-carbon.html#storage-schemas-conf) you should pay attention to. With default settings, one could only feed data with a timestamp which is less than 24 hours because it will match the pattern here. 
 
-``` conf
+{% vimhl config %}
 [default_1min_for_1day]
 pattern = .*
 retentions = 60s:1d
-```
+{% endvimhl %}
 
 As the manual suggest, 'The first pattern that matches the metric name is used', so the new sections for your own data should be place on top of the 'default_1min_for_1day' section. For example, if all of my metrics are started with 'koro', then the config file will be like:
 
