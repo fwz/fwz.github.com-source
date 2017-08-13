@@ -88,5 +88,5 @@ feed:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/fwz/fwz.github.com.git
+  repo: git@github.com:fwz/fwz.github.com.git
   branch: master
