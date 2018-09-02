@@ -7,6 +7,7 @@ categories:
 
 
 ---
+![Barre Chord](http://wenzhong.qiniudn.com/img/blog/chords-memo-title.png)
 
 Well I want to make a summary of all kinds of Barrie Chords for future reference, although I should remember them as long as I wrote this article.
 
