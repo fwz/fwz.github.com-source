@@ -1,6 +1,7 @@
 title: "Practical Apache Kafka Usage"
 date: 2018-07-29 00:24:02
-tags:
+tags: [Kafka]
+categories: [Engineering, Message Queue]
 ---
 
 ![Kafka](http://wenzhong.qiniudn.com/img/blog/franz-kafka-en-1906.jpg)
