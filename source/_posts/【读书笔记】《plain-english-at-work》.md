@@ -1,4 +1,4 @@
-title: "大道至简——《plain english at work》读后感"
+title: "Plain english at work 读后感"
 id: 179
 date: 2012-06-07 12:38:12
 tags: 

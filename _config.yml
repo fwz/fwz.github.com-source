@@ -13,7 +13,6 @@ timezone: Asia/Shanghai
 author_title: 'Life Hacker'
 avatar: css/images/avatar.png
 location: 'Beijing, China'
-language: en
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -72,10 +71,6 @@ pagination_dir: page
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
 theme: icarus
-plugins: 
-- hexo-generator-feed
-- hexo-math
-- hexo-tag-vimhighlight
 
 
 # RSS feed

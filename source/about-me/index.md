@@ -11,7 +11,7 @@ date: 2012-04-07 20:38:01
 ### 工作经历
 #### NIO 蔚来汽车策略分析部门 高级技术经理 （ 2016/09 - now ）
 * 蔚来汽车服务云：后端技术负责人
-    * 调度系统仿真平台 —— 仿真平台可验证服务云系统的在不同场景下的服务能力、发现瓶颈并进行 A/B test。并支持自定义时钟系统，加速仿真
+    * 负责 Power Express（一键加电） 的调度系统、订单系统、电力资源管理系统、服务推荐系统、支付系统、A/B Testing、仿真平台的开发
     * Tech Stack: **Spring / MySQL / Redis / Cassandra / Kafka / Python / Echarts / Bootstrap**
 * 自动化开发/测试工具
     * 用以快速创建 Spring Boot 项目的 maven archetype。 
