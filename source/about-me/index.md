@@ -3,21 +3,20 @@ date: 2012-04-07 20:38:01
 ---
 
 ### 简介
-* 5年后端系统设计和开发经验
+* 6年后端系统设计和开发经验，主要包含
     * 调度系统 / 订单系统 架构和业务设计
-    * 数据处理流水线,数据仓库,商业智能工具,数据可视化项目和数据异常检测 设计 / 开发
+    * 数据处理流水线，数据仓库，商业智能工具，数据可视化项目和数据异常检测的设计 / 开发
     * 用户行为数据分析 & 推荐算法模型训练
 
 ### 工作经历
 #### NIO 蔚来汽车策略分析部门 高级技术经理 （ 2016/09 - now ）
-* 蔚来汽车服务云：后端技术负责人
-    * 负责 Power Express（一键加电） 的调度系统、订单系统、电力资源管理系统、服务推荐系统、支付系统、A/B Testing、仿真平台的开发
-    * Tech Stack: **Spring / MySQL / Redis / Cassandra / Kafka / Python / Echarts / Bootstrap**
-* 自动化开发/测试工具
-    * 用以快速创建 Spring Boot 项目的 maven archetype。 
-    * 自动化环境部署和测试数据构建 
-    * Tech Stack: **Maven / Spring / Ansible / Consul / Nginx / Jenkins / Flyway**
-
+* 蔚来服务云 (NIO Service Cloud)：后端技术负责人
+    * 负责 Power Express（一键加电） 的调度系统、订单系统、电力资源管理系统、服务推荐系统、支付系统、A/B Testing 平台、仿真测试平台的开发
+    * Tech Stack
+      * Server Side Dev: **Spring Boot / MySQL(Percona) / Redis / Cassandra / Kafka**
+      * FE Side Dev: **deck.gl / d3.js / Echarts**
+      * DevOps: **Kubernetes / Docker / Consul / Nginx / Jenkins / Gitlab CI**
+* 价值委员会产品工具组副组长
 
 #### Qunar 酒店云平台 高级工程师 & 研发经理 （ 2015/04 - 2016/08 ） 
 * 去呼呼管家：后端技术负责人
@@ -30,15 +29,15 @@ date: 2012-04-07 20:38:01
     * 自动化环境构建，单元测试、集成测试框架落地
     * Tech Stack: **Docker / Jmeter / Robot Framework**
 * 其他角色
-    * 技术委员会成员、Qunar Hackathon命题者和评委
+    * 技术委员会成员、Qunar Hackathon 命题者和评委
 * 工作绩效——Top 5%
 
 #### Yahoo! 北京研究中心 数据工程师 （ 2012/04 - 2015/04 ）
 * CORE/Compass 数据系统
-    * 利用 TB 级别用户数据和日志,从多角度多维度计算用户参与度指标和系统性能指标;指标是决定雅虎个性化推荐平台产品逻辑和推荐算法上线的主要参考因素;参与系统所有模块架构设计和开发 
+    * 利用 TB 级别用户数据和日志，从多角度多维度计算用户参与度指标和系统性能指标;指标是决定雅虎个性化推荐平台产品逻辑和推荐算法上线的主要参考因素;参与系统所有模块架构设计和开发 
     * Tech stack: **MySQL / Hadoop / Pig / Oozie / HBase / Git / Hudson**
 * 雅虎个性化平台分布式运行时日志传输系统
-    * 该日志系统提供灵活的可扩展性以及客户端数据格式定制支持,并能对接其它外部数据源,真实还原系统服务状态和用户响应事件,为提高推荐质量提供精确数据基础。主导所有模块架构设计和实现。
+    * 该日志系统提供灵活的可扩展性以及客户端数据格式定制支持，并能对接其它外部数据源，真实还原系统服务状态和用户响应事件，为提高推荐质量提供精确数据基础。主导所有模块架构设计和实现。
     * Tech stack: **Java / Flume / Hadoop**
 * Compass 数据系统前端和推荐算法可视化工具
     * 参与模块设计和实现 
@@ -60,24 +59,24 @@ date: 2012-04-07 20:38:01
 
 #### 奖项和出版物
 
+* 「Power Express Service - 蔚来价值荣誉大奖」 (2018)
+* 「蔚来之星」 (2018)
 * 「Quhuhu Coding Contest 2016」冠军 （2016）
-* **「敏捷数据科学:用 Hadoop 构建数据分析应用」**译者，O’Reilly Press（2014）
+* 「敏捷数据科学:用 Hadoop 构建数据分析应用」译者，O’Reilly Press（2014）
 * 「Mailgazine」, 邮件阅读及归类Chrome Extension，雅虎 2014 Q1 Hackday 北京最佳应用大奖 （2014）
 * 「Compass Grid Usage Visualization Tool」，雅虎 2014 Q2 Hackday 亚太地区最佳基础服务应用 （2014）
 * 「第五届北京邮电大学 ACM-ICPC 竞赛银牌」（2012）
 * 「腾讯高校创新俱乐部最佳主席」（2010）
 
-#### 语言能力
-
-* BEC(High) / TOEIC / CET-6 
 
 #### 专业证书 & 课程
 
 * Machine Learning / Data Analysis and Statistical Inference / Computing for Data Analysis / Game Theory / Model Thinking (Coursera certified)
 * Modern Musician (Coursera)
-* Self Driving Engineer (Udacity)
+* Self Driving Engineer (Udacity，WIP)
+* Language: BEC(High) / TOEIC / CET-6 
 
 #### 业余爱好 & 兴趣
 * 游泳：Qunar 2015 运动会：200m 男子自由泳冠军，4*100m 男子蛙泳接力冠军
-* ￼￼音乐：键盘 / 鼓 / 吉他 / 主唱
+* 音乐：键盘 / 鼓 / 吉他 / 主唱
 

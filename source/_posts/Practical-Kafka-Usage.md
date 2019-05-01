@@ -4,7 +4,7 @@ tags: [Kafka]
 categories: [Engineering, Message Queue]
 ---
 
-![Kafka](http://wenzhong.qiniudn.com/img/blog/franz-kafka-en-1906.jpg)
+![Kafka](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/img/blog/franz-kafka-en-1906.jpg)
 
 I collect some of Apache Kafka usage in our team and write an internal post in Chinese. And I would like to pull the fundamental part into this post.
 

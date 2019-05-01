@@ -6,7 +6,7 @@ categories:
 - Board Game
 ---
 
-![2D Nim](http://wenzhong.qiniudn.com/img/blog/2d-nim-1.png)
+![2D Nim](http://wenzhong.qiniucdn.com/img/blog/2d-nim-1.png)
 
 
 ### Intro
