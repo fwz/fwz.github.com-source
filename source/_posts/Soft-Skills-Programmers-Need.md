@@ -5,7 +5,7 @@ categories: [Career, Growth]
 
 ---
 
-![Soft Skills](http://7ktqal.com1.z0.glb.clouddn.com/img/blog/soft_skills.png)
+![Soft Skills](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/img/blog/soft_skills.png)
 
 # 程序员都需要哪些软技能
 在某问答网站看到了一个非常很有意思的问题：程序员都需要哪些软技能？前段时间正好看完了一本神书，稍微归纳出一些不成熟的想法：

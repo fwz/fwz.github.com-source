@@ -3,7 +3,7 @@ date: 2017-06-07 22:35:56
 tags: [Linux]
 categories: [Engineering, Dev Ops]
 ---
-![](http://wenzhong.qiniudn.com/img/blog/fstab.jpg)
+![](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/img/blog/fstab.jpg)
 
 Today I encounter a very strange problem that all recent deployed applications in a specific host fail to start, with a simple error message **"Permission Denied. xxxx.sh could not be executed"**. 
 
