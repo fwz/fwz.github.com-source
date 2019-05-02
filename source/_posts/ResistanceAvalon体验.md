@@ -6,7 +6,7 @@ categories:
 tags: Avalon
 ---
 
-![](http://wenzhong.qiniudn.com/img/blog/avalon.jpg)
+![](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/img/blog/avalon.jpg)
 
 过年约了几个兄弟姐妹去玩桌游，大师Neo带了几个桌游过来，玩了一回合菲力猫，人到齐了以后玩了两局，，有赢有输，超级好玩。
 

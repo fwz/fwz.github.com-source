@@ -5,7 +5,7 @@ tags: [2017, Resolution]
 categories: [Career, Resolution]
 ---
 
-![](http://7ktqal.com1.z0.glb.clouddn.com/img/blog/2017-resolution.jpg)
+![](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/img/blog/2017-resolution.jpg)
 
 I drafted this new year resolution on the plane. Looking forwards to a fruitful year!
 

@@ -8,7 +8,7 @@ tags:
 
 ---
 
-![](http://wenzhong.qiniudn.com/img/blog/git-workflow-text.png)
+![](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/img/blog/git-workflow-text.png)
 My boss told me that my goal in this quarter is to working on Continuous Integration for our current product, and all of a sudden I think there's a lot of gap between the goal and my current skill. The first thing came into my mind is that: "Ohhh, I am still not quite familiar with Git". After a short period of panic, I sit down to learn about git. And here's my note.
 
 If you think you could learn git with manual after you learn how to branch, commit and merge, then you might probably be dispointted. Git is very flexible but it do something in a more novel way, so certain understanding of it's internal is necessary for mastering it, and would be helpful when you look for help in manual. For example, I hear about so many terms such as "HEAD", "Index", "Ref", "Staging Area", but I could not tell exactly what is that, and I don't even know how git works. After some diving, I wrapped something very basic in this post.
@@ -66,7 +66,7 @@ The second term is index.
 
 After we `git add <file>` a file, it's in the index. See the light blue box in the following workflow chart. 
 
-![git-workflow](http://wenzhong.qiniudn.com/img/blog/git-regular-workflow.png)
+![git-workflow](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/img/blog/git-regular-workflow.png)
 
 ---
 ### Ref
@@ -137,7 +137,7 @@ So, what is this? There's mainly 3 types of objects in git -- "Commit", "Tree" a
 * A *TREE* is a directory, including blobs and sub-tree (sub-dir) under this dir.
 * A *COMMIT* will point to the repository tree it based on, and also contain commit info (author,message)
 
-![Git objects](http://wenzhong.qiniudn.com/img/blog/git-objects.png)
+![Git objects](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/img/blog/git-objects.png)
 
 `cat-file` is our friend. Let's examine the object with it. The "-t" parameters will tell us the type of this objects.
 
@@ -172,7 +172,7 @@ test object v1
 
 Then, how about multiple commits? how each commit know which commit it based on?
 There would be a parent pointer pointing to the last commit in each commit object.
-![Multiple commits](http://wenzhong.qiniudn.com/img/blog/git-commit-parents.png)
+![Multiple commits](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/img/blog/git-commit-parents.png)
 
 Now we should have a basic understanding about how git store our history in the `.git/objects`.
 

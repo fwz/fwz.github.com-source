@@ -7,7 +7,7 @@ tags:
 - Linear Algebra
 ---
 
-![](http://wenzhong.qiniudn.com/img/blog/lights_out_2.png)
+![](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/img/blog/lights_out_2.png)
 
 Last weekend I went to play a reality room escape game with some friends. It's a lot of fun and we finally escape on time!
 

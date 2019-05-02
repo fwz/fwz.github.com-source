@@ -4,7 +4,7 @@ tags: [Grafana, Graphite, Carbon]
 categories: [Engineering, Dashboard]
 ---
 
-![Grafana](http://7ktqal.com1.z0.glb.clouddn.com/img/blog/grafana-demo2.png)
+![Grafana](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/img/blog/grafana-demo2.png)
 
 # Preface
 
@@ -135,7 +135,7 @@ which mean carbon have successfully receive the data
 
 Then, go to the graphite webapp on localhost:8080, there should be another new node under "Tree" Tab, "Metrics" -> "local" -> "random" -> "diceroll"
 
-![Graphite with data feed](http://7ktqal.com1.z0.glb.clouddn.com/img/blog/grafana-graphite.png)
+![Graphite with data feed](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/img/blog/grafana-graphite.png)
 
 Bingo! Now only one step to visualize it on Grafana
 
@@ -197,12 +197,12 @@ then goto localhost:3000 you should see the login UI, use the default admin user
 
 after login, we could navigate from 'top left icon' -> 'data sources' to configure which data source grafana could use (or we could use http://localhost:3000/datasources/edit/1 directly). 
 
-![Configure Data source](http://7ktqal.com1.z0.glb.clouddn.com/img/blog/grafana-datasource.png)
+![Configure Data source](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/img/blog/grafana-datasource.png)
 
 And now we could setup a new dashboard!
 'top left icon' -> 'Dashboards' -> 'New' to add a new graph
 Then go to the 'Graph' section of current Dashboard, go to the metrics tab, add "local"|"random"|"diceroll" as metrics name, and you should see the data points pops into the panel immediately.
 
-![Test Dashboard](http://7ktqal.com1.z0.glb.clouddn.com/img/blog/grafana-test-dashboard.png)
+![Test Dashboard](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/img/blog/grafana-test-dashboard.png)
 
 

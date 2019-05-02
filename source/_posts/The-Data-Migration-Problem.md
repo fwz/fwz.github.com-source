@@ -4,7 +4,7 @@ tags: [Algorithm]
 categories: [Engineering, Algorithm]
 ---
 
-![Migrate the Hotel!](http://7ktqal.com1.z0.glb.clouddn.com/img/blog/cool-jenkins2x3.png)
+![Migrate the Hotel!](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/img/blog/cool-jenkins2x3.png)
 Today I am trying to solve a very interesting problem, I would like to call it the "data migration problem". 
 
 <!-- more -->

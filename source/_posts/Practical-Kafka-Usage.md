@@ -99,5 +99,5 @@ Rebalance 相关内容参考
 * 【B1/B2】消息的可靠发送：每个 MQ 实例中，会用一个 deamon 会不断地轮训一段时间内应被发送但未发送成功的消息（带重试次数）
 * 【A2】提高消息的实时性的方法：状态和消息一起 Commit 以后，在业务代码中的 After Commit 动作中里，自行读取消息进行发送。
 
-![Transactional Messages](http://wenzhong.qiniudn.com/img/blog/transactional_messages.png)
+![Transactional Messages](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/img/blog/transactional_messages.png)
 

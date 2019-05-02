@@ -6,7 +6,7 @@ categories:
 - Engineering Excellence
 ---
 
-![](http://wenzhong.qiniudn.com/img/blog/testing.png)
+![](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/img/blog/testing.png)
 
 The importance of writing unit tests have been heavily discussed. However, reality is cruel. Many developers do not write UT, and even larger amount of developers write funny tests just to pass the code coverage bar, and some developers with ambition are not quite sure about how to write good unit tests. Most good UT are written by top developers.
 

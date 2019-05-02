@@ -4,7 +4,7 @@ date: 2014-05-31 23:36:19
 categories: [Publications]
 tags: [data science, translate]
 ---
-![](http://wenzhong.qiniudn.com/agile_data_science_ss.png)
+![](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/agile_data_science_ss.png)
 大数据时代到来。或者至少可以说，它在概念层面上到来了。然而读者朋友，有没有想过数据的核心价值是什么？
 
 是信息量。数据携带的信息量赋予了人们进一步洞察这个复杂世界的**可能性**。数据是现实世界的快照。通过分析数据，我们可以对世界有更深入，更准确的理解。若我们能越快、越好地理解这个世界，就越有可能在行动中占得先机。

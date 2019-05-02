@@ -3,7 +3,7 @@ date: 2015-11-21 17:08:35
 tags: Book Review, Thoughts
 ---
 
-![Project management](http://7ktqal.com1.z0.glb.clouddn.com/img%2Fblog%2Fproject-management.jpg)
+![Project management](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/img/blog/project-management.jpg)
 
 最近看了一些技术项目排雷书，分几个方面总结了一下雷区，以及可以做得更好的地方。
 

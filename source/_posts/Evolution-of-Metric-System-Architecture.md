@@ -6,7 +6,7 @@ categories:
 tags: [HBase, Hadoop, Oozie, Hive, Pig, Flume, Splunk]
 ---
 
-![](http://wenzhong.qiniudn.com/img/blog/data_system.png)
+![](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/img/blog/data_system.png)
 
 ## Preface
 In the past 2 years, I spent about 70% of my working time to build, to break, and to fix data products. This article is a brief retrospect of my understanding on building the whole systems, as well as what kind of tools could be plugged as components.
@@ -29,7 +29,7 @@ For different stage, we focus on different aspect and use different tools / tech
 ---
 
 ## Stage 1: System Validation
-![](http://wenzhong.qiniudn.com/img/blog/Dashboard Evolution.001.png)
+![](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/img/blog/Dashboard Evolution.001.png)
 In this Stage, both the recom system and the metric system are in prototype status. As data team, our top priority is to use data to identify whether the recom system work as expect, which means we care about our services more than our actual user at this stage. So we apply a "scraper", mocking thousands of different queries to visit our backend system. Then extract the instrumentation we are interested in, and compare with our design  using different user profile to generate  And the above graph show a scraper pattern.
 1. We build a scraper to send multiple mock requests
 1. Analysis the statistical result from response of mock requests
@@ -40,7 +40,7 @@ In this Stage, both the recom system and the metric system are in prototype stat
 ---
 
 ## Stage 2: Report System Performance Metrics
-![](http://wenzhong.qiniudn.com/img/blog/Dashboard Evolution.002.png)
+![](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/img/blog/Dashboard Evolution.002.png)
 
 Now we start to care more about user, we want to know how user in different segments interact with our business product. Thus we collect a user behaviour log (which is not produced from our side), and compute metrics like Retention Rate and CTR(click through rate) to measure user’s engagement.
 
@@ -101,7 +101,7 @@ We made our FE more user-friendly by leveraging [Bootstrap](getbootstrap.com/) (
 
 ## Stage 3: Expand Ecosystem
 As the number of reporting metrics increase, some other problems / requirements emerged. We integrate more component to solve real world problems such as monitoring, metric self-service, online machine learning.
-![](http://wenzhong.qiniudn.com/img/blog/Dashboard Evolution.003.png)
+![](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/img/blog/Dashboard Evolution.003.png)
 ### Abnormal Detection
 
 As number of pipelines increases, probability of a broken pipeline also increases.

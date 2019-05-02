@@ -4,7 +4,7 @@ tags: [Visualization, D3]
 categories: [Engineering, Visualization]
 ---
 
-![](http://wenzhong.qiniudn.com/learnd3_1.png)
+![](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/learnd3_1.png)
 Finally, make up my mind to learn d3 with focus. I decide to learn the example on [d3's gallery](mbostock.github.io/d3/) line-by-line. This should not be a hard way as the title of this post because:
 
 *   Most example written by author.

@@ -5,7 +5,7 @@ tags: [MAC, Alfred]
 
 ---
 
-![](http://wenzhong.qiniudn.com/alfred_workflow.png)
+![](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/alfred_workflow.png)
 
 Finally I purchase Alfred for workflows.
 

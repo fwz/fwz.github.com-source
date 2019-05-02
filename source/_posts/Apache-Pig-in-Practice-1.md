@@ -6,7 +6,7 @@ categories:
 - Big Data
 ---
 
-![](http://wenzhong.qiniudn.com/pig1.png)
+![](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/pig1.png)
 I write many pig script in the past few months and have explored some tricks with my buddies. hopes it could help someone.
 
 Let's focus on some interesting topics in this first article and get prepared for the later Pig rush.

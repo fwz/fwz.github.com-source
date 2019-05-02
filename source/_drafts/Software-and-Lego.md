@@ -8,7 +8,7 @@ tags:
 
 ---
 
-![](http://wenzhong.qiniudn.com/img/blog/21050_LA_Studio_2014_Box.png)
+![](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/img/blog/21050_LA_Studio_2014_Box.png)
 
 最近有空开始拆箱玩"21050:Architecture Studio"。 玩的过程中有不少感悟，其中最大的感悟是系统设计和建筑设计其实很类似（怪不得都叫Architect）：
 
