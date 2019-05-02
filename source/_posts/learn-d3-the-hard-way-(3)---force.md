@@ -6,7 +6,7 @@ categories: [Engineering, Visualization]
 
 ---
 
-![](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/learnd3_3.png)
+![](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/img/blog/learnd3_3.png)
 This is a very useful sketch for node placement. Rather than the original force only move nodes, this sketch also place label in it. Origin from Mortiz's [Force-based label placement](http://bl.ocks.org/MoritzStefaner/1377729).
 
 The basic idea is to have labels orbit around their target node at a fixed distance, but repeal each other, so that they don't overlap, and orient themselves to the outside of clusters. To support that, labels on the right of their target node are left-aligned, and labels on the left of their target node are right-aligned; in between, we interpolate. In this example, one force layout governs the node placement, and the second one the label placement, but of course, the node placement could be computed by any other algorithm.

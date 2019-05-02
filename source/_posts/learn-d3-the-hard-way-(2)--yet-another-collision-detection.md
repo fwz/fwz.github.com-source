@@ -5,7 +5,7 @@ categories: [Engineering, Visualization]
 
 ---
 
-![](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/learnd3_2.png)
+![](https://wenzhong-1259152588.cos.ap-beijing.myqcloud.com/img/blog/learnd3_2.png)
 Another collision detection work. Very elegant.
 
 Here's a little bit background about this sketch. As we can see, this sketch is composed by non-touching circles in a canvas. This algorithm generate a random sample by generating K candidates, and choose the best one and add it to the system. The definition of best is that it's the farthest away from the previous sample. By this way, the emergance of new sample would be more natural, compared with the uniform random sampling.
