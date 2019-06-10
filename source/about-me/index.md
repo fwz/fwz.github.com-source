@@ -16,7 +16,7 @@ date: 2012-04-07 20:38:01
       * Server Side Dev: **Spring Boot / MySQL(Percona) / Redis / Cassandra / Kafka**
       * FE Side Dev: **deck.gl / d3.js / Echarts**
       * DevOps: **Kubernetes / Docker / Consul / Nginx / Jenkins / Gitlab CI**
-* 价值委员会产品工具组副组长
+* 价值委员会产品-工具组副组长
 
 #### Qunar 酒店云平台 高级工程师 & 研发经理 （ 2015/04 - 2016/08 ） 
 * 去呼呼管家：后端技术负责人
@@ -57,17 +57,20 @@ date: 2012-04-07 20:38:01
 * 中国科学院计算所 客座学生 2008-2010
 * 北京邮电大学 信息安全 2005-2009 **(Rank: 3/100)**
 
-#### 奖项和出版物
+#### 奖项
 
 * 「Power Express Service - 蔚来价值荣誉大奖」 (2018)
 * 「蔚来之星」 (2018)
 * 「Quhuhu Coding Contest 2016」冠军 （2016）
-* 「敏捷数据科学:用 Hadoop 构建数据分析应用」译者，O’Reilly Press（2014）
 * 「Mailgazine」, 邮件阅读及归类Chrome Extension，雅虎 2014 Q1 Hackday 北京最佳应用大奖 （2014）
 * 「Compass Grid Usage Visualization Tool」，雅虎 2014 Q2 Hackday 亚太地区最佳基础服务应用 （2014）
 * 「第五届北京邮电大学 ACM-ICPC 竞赛银牌」（2012）
 * 「腾讯高校创新俱乐部最佳主席」（2010）
 
+#### 出版物
+* 「敏捷数据科学:用 Hadoop 构建数据分析应用」译者，O’Reilly Press（2014）
+* [音乐日记](musicdiary.me)
+* 「基石学院课程：打造高效率的学习工作宇宙」，北辰青年未来大学（2019）
 
 #### 专业证书 & 课程
 
@@ -79,4 +82,3 @@ date: 2012-04-07 20:38:01
 #### 业余爱好 & 兴趣
 * 游泳：Qunar 2015 运动会：200m 男子自由泳冠军，4*100m 男子蛙泳接力冠军
 * 音乐：键盘 / 鼓 / 吉他 / 主唱
-
